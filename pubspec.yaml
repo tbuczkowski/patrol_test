@@ -22,6 +22,7 @@ flutter:
 
 patrol:
   app_name: My App
+  flavor: prod
   ios:
     bundle_id: com.example.patrol_test
 
