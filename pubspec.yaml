@@ -1,0 +1,27 @@
+name: patrol_test
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  app_settings: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  patrol: ^3.5.0
+
+
+flutter:
+  uses-material-design: true
+
+patrol:
+  app_name: My App
+  ios:
+    bundle_id: com.example.patrol_test
+
